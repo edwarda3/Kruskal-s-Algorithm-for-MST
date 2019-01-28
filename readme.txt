@@ -1,3 +1,7 @@
+Uses Kruskal's algorithm to find the Minimum Spanning Tree of a complete, undirected graph in 2-d geopetric plane, with the vertices each being a (x,y) point, and the edges being the euclidian distance between them.
+
+Code written by Alex Edwards for CS 420 class at Oregon State University
+
 Find the longest path by running 
 
 $ python3 euclidian-mst.py
@@ -27,3 +31,12 @@ For example,
 4 4
 4 8
 1 1
+
+Alternatively, use run visualizer.py
+
+$ python3 visualizer.py
+
+Which visualizes the result using pygame. 
+Use LMouse to add a node at the position of the cursor.
+Use RMouse to randomly scatter 50 points.
+Press Spacebar to clear the graph.
